@@ -70,7 +70,7 @@ English: intermediate
 - Running
 - Weightlifting
 
-[1]: https://www.codewars.com/users/sv.yurie  
+[1]: https://www.codewars.com/users/sv.yurie "Codewars link"
 
-[2]: https://github.com/STyshchyk  
+[2]: https://github.com/STyshchyk "Github link"
  
