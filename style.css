@@ -204,7 +204,8 @@ ul li {
     margin-top: 5px;
 }
 
-.left-aside-languages ul li span:nth-child(2) div {
+.left-aside-languages ul li span:nth-child(2) span {
+    display: block;
     width: 100%;
     background-color: red;
     height: 100%;
@@ -272,7 +273,8 @@ ul li {
     margin-top: 5px;
 }
 
-.progress li span:nth-child(2) div {
+.progress li span:nth-child(2) span {
+    display: block;
     width: 100%;
     background-color: red;
     height: 100%;
