@@ -6,24 +6,25 @@
           content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container" >
+<div class="container">
     <div class="left-aside">
         <div class="theme-switch-wrapper">
             <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
+                <input type="checkbox" id="checkbox"/>
                 <span class="slider round"></span>
             </label>
-            </div>
+        </div>
         <div class="left-aside-title">
             <div class="left-aside-title-img">
-                <img src="img.jpg" alt="">
+                <img src="img.jpg" alt="avatar img">
             </div>
 
             <div class="left-aside-title-text">
@@ -33,13 +34,15 @@
         </div>
         <div class="left-aside-contact">
             <h2 class="left">contact info</h2>
-            <ul>
-                <li><a href="#"><i class="fas fa-phone"></i>+380682372585</a></li>
-                <li><a href="#"><i class="fal fa-envelope"></i>svet.tyshchyk@gmail.com</a></li>
-                <li><a href="#"><span class="iconify" data-icon="cib:codewars"></span>sv.yurie</a></li>
-                <li><a href="#"><i class="fab fa-github"></i>Styshchyk</a></li>
-                <li><a href="#"><i class="fas fa-map-marker-alt"></i>Ukraine, Lviv</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fas fa-phone"></i>+380682372585</a></li>
+                    <li><a href="#"><i class="fal fa-envelope"></i>svet.tyshchyk@gmail.com</a></li>
+                    <li><a href="#"><span class="iconify" data-icon="cib:codewars"></span>sv.yurie</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i>Styshchyk</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>Ukraine, Lviv</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="left-aside-education">
             <h2 class="left">
@@ -81,85 +84,187 @@
         </div>
     </div>
     <div class="right-aside">
-        <div class="right-aside-profile">
-            <h2 class="center">
-                PROFILE
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ipsum praesentium quaerat quas sequi, tenetur vero. Adipisci aliquam beatae cumque impedit molestias nam obcaecati, quod sit. Amet animi blanditiis culpa cupiditate deleniti dolorum earum est modi molestiae nemo nisi officia pariatur provident recusandae repellendus rerum, sunt temporibus, vel voluptate voluptatum?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ipsum praesentium quaerat quas sequi, tenetur vero. Adipisci aliquam beatae cumque impedit molestias nam obcaecati, quod sit. Amet animi blanditiis culpa cupiditate deleniti dolorum earum est modi molestiae nemo nisi officia pariatur provident recusandae repellendus rerum, sunt temporibus, vel voluptate voluptatum?</p>
-        </div>
-        <div class="right-aside-exp">
-            <h2 class="center">
-                Experience
-            </h2>
-            <div class="work-exp">
-                <div class="work-exp-left-aside">
-                    <p class="date">06/2020 - 09/2020</p>
-                    <p class="companyName">GAMELOFT LVIV</p>
+        <header class="header" style="display: none">
+            <ul class="header-links">
+                <li><a href="#jump-link-footer">footer</a></li>
+
+            </ul>
+        </header>
+        <main>
+            <div class="right-aside-profile" id="jump-link-about-me">
+                <h2 class="center">
+                    About me
+                </h2>
+                <p>Why waste time say lot word when few word do trick</p>
+
+            </div>
+            <div class="right-aside-exp">
+                <h2 class="center">
+                    Experience
+                </h2>
+                <div class="work-exp">
+                    <div class="work-exp-left-aside">
+                        <p class="date">06/2020 - 09/2020</p>
+                        <p class="companyName">GAMELOFT LVIV</p>
+                    </div>
+                    <div class="work-exp-right-aside">
+                        <p class="position">QA tester</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            ducimus
+                            magnam perferendis quam reprehenderit voluptas?</p>
+                    </div>
                 </div>
-                <div class="work-exp-right-aside">
-                    <p class="position">QA tester</p>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus magnam perferendis quam reprehenderit voluptas?</p>
+                <div class="work-exp">
+                    <div class="work-exp-left-aside">
+                        <p class="date">08/2018 - Present</p>
+                        <p class="companyName">UPWORK</p>
+                    </div>
+                    <div class="work-exp-right-aside">
+                        <p class="position">MQL developer</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            ducimus
+                            magnam perferendis quam reprehenderit voluptas?</p>
+                    </div>
                 </div>
             </div>
-            <div class="work-exp">
-                <div class="work-exp-left-aside">
-                    <p class="date">08/2018 - Present</p>
-                    <p class="companyName">UPWORK</p>
-                </div>
-                <div class="work-exp-right-aside">
-                    <p class="position">MQL developer</p>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus magnam perferendis quam reprehenderit voluptas?</p>
-                </div>
-            </div>
-        </div>
-        <div class="right-aside-skills">
-            <h2 class="center">
-                Skills
-            </h2>
-            <div class="skill-box">
-                <ul class="progress">
-                    <li>
-                        <span>HTML</span>
-                        <span>
+            <div class="right-aside-skills">
+                <h2 class="center">
+                    Skills
+                </h2>
+                <div class="skill-box">
+                    <ul class="progress">
+                        <li>
+                            <span>HTML</span>
+                            <span>
                          <span style="width: 95%;"></span>
                      </span>
-                    </li>
-                    <li>
-                        <span>CSS</span>
-                        <span>
+                        </li>
+                        <li>
+                            <span>CSS</span>
+                            <span>
                          <span style="width: 75%;"></span>
                      </span>
-                    </li>
-                    <li>
-                        <span>JS</span>
-                        <span>
+                        </li>
+                        <li>
+                            <span>JS</span>
+                            <span>
                          <span style="width: 55%;"></span>
                      </span>
-                    </li>
-                    <li>
-                        <span>PHOTOSHOP</span>
-                        <span>
+                        </li>
+                        <li>
+                            <span>PHOTOSHOP</span>
+                            <span>
                          <span style="width: 65%"></span>
                      </span>
-                    </li>
+                        </li>
+                        <li>
+                            <span>GIT</span>
+                            <span>
+                         <span style="width: 70%"></span>
+                     </span>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="right-aside-interests">
-            <h2 class="center">
-                interests
-            </h2>
-            <div class="interest-set">
-                <span><i class="fas fa-basketball-ball"></i>Basketball</span>
-                <span><i class="fas fa-route"></i>Travelling</span>
-                <span><i class="fas fa-book"></i>Reading</span>
-                <span><i class="fas fa-running"></i>Running</span>
-                <span><i class="fas fa-dumbbell"></i>Weightlifting</span>
-             </div>
-        </div>
+            <div class="right-aside-interests">
+                <h2 class="center">
+                    interests
+                </h2>
+                <div class="interest-set">
+                    <span><i class="fas fa-basketball-ball"></i>Basketball</span>
+                    <span><i class="fas fa-route"></i>Travelling</span>
+                    <span><i class="fas fa-book"></i>Reading</span>
+                    <span><i class="fas fa-running"></i>Running</span>
+                    <span><i class="fas fa-dumbbell"></i>Weightlifting</span>
+                </div>
+            </div>
+            <div class="right-aside-projects">
+                <h2 class="center">Projects</h2>
+                <p>Check my <a href="https://github.com/STyshchyk/refProjects">git</a> with work samples</p>
+
+            </div>
+            <div class="right-aside-code">
+                <h2 class="center">Code sample</h2>
+                <button onclick="myFunction()" class="btn">Show code</button>
+                <div id="hide">
+                    <pre>
+  <code>
+int OnCalculate(const int rates_total,
+                const int prev_calculated,
+                const datetime &time[],
+                const double &open[],
+                const double &high[],
+                const double &low[],
+                const double &close[],
+                const long &tick_volume[],
+                const long &volume[],
+                const int &spread[])
+  {
+  BarsReverse = (int)GlobalVariableGet(globalBars);
+   int barslimit = HistoryBars;
+   if(barslimit + periods + 1 >= Bars)
+     {
+      barslimit = Bars - periods - 2;
+     }
+   for(int i = 0; i <= barslimit + periods ; i++)
+     {
+      prices[i] = iFilter(getPrice(Price,open,close,high,low,i,rates_total),0,periods,i,rates_total,0);
+      double x1, x2, x3;
+      if(i >= periods)
+        {
+         x1 = extMain[i - 1 ] * coef2;
+         x2 = extMain[i - 2 ] * coef3;
+         x3 = prices[i] * coef1;
+         extMain[i] = x1 + x2 + x3;
+        }
+      else
+        {
+         extMain[i] = prices[i];
+        }
+     }
+
+
+   for(int i = barslimit + periods ; i >= 0; i--)
+     {
+      double x1, x2, x3;
+
+      if(!isBearish_Cont(i, BarsReverse) && !isBullish_Cont(i, BarsReverse) && BarsReverse != 0)
+        {
+         ExtLineBuff[i] =  ExtLineBuff[i + 1];
+
+        }
+      else
+         if(i <= barslimit)
+           {
+            x1 = ExtLineBuff[i + 1] * coef2;
+            x2 = ExtLineBuff[i + 2] * coef3;
+            x3 = extMain[i] * coef1;
+            ExtLineBuff[i] = x1 + x2 + x3;
+           }
+         else
+           {
+            ExtLineBuff[i] = extMain[i];
+           }
+     }
+
+
+//--- return value of prev_calculated for next call
+   return(rates_total);
+  }
+  </code>
+</pre>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer" id="jump-link-footer">
+            <p>© 2022 by sv.yurie</p>
+            <a href="https://github.com/STyshchyk"><i class="fab fa-github "></i></a>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS logo"></a>
+        </footer>
     </div>
+
 </div>
 <script src="js.js"></script>
 
