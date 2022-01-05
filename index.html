@@ -207,7 +207,7 @@ int OnCalculate(const int rates_total,
      {
       barslimit = Bars - periods - 2;
      }
-   for(int i = 0; i <= barslimit + periods ; i++)
+   for(int i = 0; i  barslimit + periods ; i++)
      {
       prices[i] = iFilter(getPrice(Price,open,close,high,low,i,rates_total),0,periods,i,rates_total,0);
       double x1, x2, x3;
@@ -235,7 +235,7 @@ int OnCalculate(const int rates_total,
 
         }
       else
-         if(i <= barslimit)
+         if(i barslimit)
            {
             x1 = ExtLineBuff[i + 1] * coef2;
             x2 = ExtLineBuff[i + 2] * coef3;
