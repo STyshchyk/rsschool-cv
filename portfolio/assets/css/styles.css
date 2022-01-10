@@ -1,0 +1,11 @@
+:root{
+    --new-color: red;
+    --text-color: blue;
+}
+
+
+
+body{
+    background-color: var(--new-color);
+    color: var(--text-color);
+}
