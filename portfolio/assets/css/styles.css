@@ -112,7 +112,7 @@ ul li a {
     transition: all 1s ease;
 }
 
-.logo:hover {
+.logo:hover, .video-btn:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(100%) contrast(87%);
 }
 
@@ -360,4 +360,25 @@ ul li a {
 /*Video*/
 .video{
     background-color: black;
+}
+
+.video-player{
+     margin-top: 20px;
+    height: 705px;
+    background-image: url("/portfolio/assets/img/video-player.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-btn{
+    height: 130px;
+    width: 130px;
+    background-image: url('/portfolio/assets/svg/Play_Unvisited.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
 }
