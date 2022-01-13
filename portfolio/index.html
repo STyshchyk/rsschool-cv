@@ -6,6 +6,7 @@
           content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/portfolio/assets/img/camera%201.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Merriweather:wght@700&display=swap"
@@ -15,30 +16,26 @@
 </head>
 <body>
 <div class="hero-img"></div>
-
-
 <header class="header">
     <div class="container">
         <div class="header-container">
             <div class="logo"></div>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Video</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Price</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><span class="en-lang">en</span> / <span
+                    <li class="nav-item"><a href="#hero" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Video</a></li>
+                    <li class="nav-item"><a href="#video" class="nav-link">Price</a></li>
+                    <li class="nav-item"><a href="#price" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><span class="en-lang">en</span> / <span
                             class="ru-lang">ru</span></a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
-
 <main class="main">
-
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="container">
             <div class="hero-container">
                 <h1 class="hero-h1">Alexa Rise</h1>
@@ -50,11 +47,15 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
         <div class="container">
             <div class="skills-container">
                 <div class="section-title">
+                    <div class="section-hor"></div>
+                    <div class="section-hor2"></div>
                     <h2 class="title">Skills</h2>
+
+
                 </div>
                 <div class="section-cards">
                     <div class="card1">
@@ -107,10 +108,12 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="portfolio-container">
                 <div class="section-title">
+                    <div class="section-hor"></div>
+                    <div class="section-hor2"></div>
                     <h2 class="title">Portfolio</h2>
                 </div>
                 <div class="portfolio-btn">
@@ -131,40 +134,110 @@
             </div>
         </div>
     </section>
-    <section class="video">
+    <section id="video" class="video">
         <div class="container">
             <div class="video-container">
                 <div class="section-title">
+                    <div class="section-hor"></div>
+                    <div class="section-hor2"></div>
                     <h2 class="title">Video</h2>
                 </div>
                 <div class="video-player">
-                    <div class="video-btn">
-
-                    </div>
+                    <button class="video-btn"></button>
                 </div>
 
             </div>
         </div>
     </section>
-    <section class="price">
+    <section id="price" class="price">
         <div class="container">
             <div class="price-container">
                 <div class="section-title">
+                    <div class="section-hor"></div>
+                    <div class="section-hor2"></div>
                     <h2 class="title">Price</h2>
                 </div>
+                <div class="price-cards">
+                    <div class="price-card">
+                        <span class="price-title">Standart</span>
+                        <span class="price-price">500 $</span>
+                        <span class="price-text">One location</span>
+                        <span class="price-text">120 photos in color</span>
+                        <span class="price-text">12 photos in retouch</span>
+                        <span class="price-text">Readiness 2-3 weeks</span>
+                        <span class="price-text">Make up, visage</span>
+                        <button class="price-btn">Order shooting</button>
+                    </div>
+                    <div class="price-card">
+                        <span class="price-title">Premium</span>
+                        <span class="price-price">700 $</span>
+                        <span class="price-text">One or two location</span>
+                        <span class="price-text">200 photos in color</span>
+                        <span class="price-text">200 photos in retouch</span>
+                        <span class="price-text">Readiness 1-2 weeks</span>
+                        <span class="price-text">Make up, visage</span>
+                        <button class="price-btn">Order shooting</button>
+                    </div>
+                    <div class="price-card">
+                        <span class="price-title">Gold</span>
+                        <span class="price-price">1000 $</span>
+                        <span class="price-text">Three location or more</span>
+                        <span class="price-text">300 photos in color</span>
+                        <span class="price-text">500 photos in retouch</span>
+                        <span class="price-text">Readiness 1 weeks</span>
+                        <span class="price-text">Make up, visage, hairstyle</span>
+                        <button class="price-btn">Order shooting</button>
+                    </div>
 
+
+                </div>
 
             </div>
-            <div class="price-cards">
 
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-side">
+                <h2>Contact me</h2>
+                <label for="mail">
+                    <input type="email" placeholder="E-mail" id="mail">
+                </label>
+                <label for="text">
+                    <input type="tel" placeholder="Phone" id="text">
+                </label>
+                <label for="area">
+                    <textarea name="Message" placeholder="Message" id="area"></textarea>
+                </label>
+                <button>Send message</button>
             </div>
         </div>
     </section>
-
 </main>
+<footer class="footer" id="contacts">
+    <div class="container">
+        <div class="left-aside">
+            <span>©</span>
+            <span>2022</span>
+            <a href="https://github.com/STyshchyk">github</a>
+        </div>
+        <span class="middle"><a href="https://rs.school/js-stage0/">Rolling Scopes School</a></span>
 
-<footer class="footer">
+        <ul class="nav-list-footer">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img src="/portfolio/assets/svg/Vector-1.svg" alt="instagram">
+                </a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="/portfolio/assets/svg/Vector-2.svg"
+                                                                   alt="instagram"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="/portfolio/assets/svg/Vector-3.svg"
+                                                                   alt="instagram"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="/portfolio/assets/svg/Vector-4.svg"
+                                                                   alt="instagram"></a></li>
+        </ul>
 
+    </div>
 </footer>
 <script src="index.js"></script>
 </body>
