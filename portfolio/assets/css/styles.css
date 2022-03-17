@@ -199,7 +199,8 @@ header ul li a {
 }
 
 .title {
-    display: inline-block;
+    width: 50%;
+
     padding: 100px 1rem 40px 1rem;
     color: var(--color-gold);
     font-family: Merriweather, serif;
@@ -209,25 +210,25 @@ header ul li a {
     line-height: 80px;
     letter-spacing: 0;
     text-align: center;
-    margin-bottom: 0;
+
     position: relative;
     z-index: 100;
     background-color: black;
     margin: 0 auto;
 
+    display: flex;
+    flex-direction: row;
+
+}
+.title:after,
+.title:before{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+
 }
 
-/*.title:before,*/
-/*.title:after {*/
-/*    background-color: var(--color-gold);*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    height: 2px;*/
-/*    position: relative;*/
-/*    vertical-align: middle;*/
-/*    width: 20%;*/
-/*    margin-top: -6px;*/
-/*}*/
 .section-title {
     position: relative;
     display: flex;
@@ -259,15 +260,15 @@ h2 {
 
 }
 
-.title:before {
-    right: 21px;
-    margin-left: -25%;
-}
+/*.title:before {*/
+/*    right: 21px;*/
+/*    margin-left: -25%;*/
+/*}*/
 
-.title:after {
-    left: 361px;
-    margin-left: -25%;
-}
+/*.title:after {*/
+/*    left: 361px;*/
+/*    margin-left: -25%;*/
+/*}*/
 
 /*Cards*/
 .section-cards {
@@ -561,8 +562,9 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .contact-side input::placeholder, .contact-side textarea::placeholder {

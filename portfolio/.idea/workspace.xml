@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec501719-5376-4d4a-ba21-ebf0eaf2a462" name="Changes" comment="" />
+    <list default="true" id="ec501719-5376-4d4a-ba21-ebf0eaf2a462" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +56,16 @@
       <recent name="C:\Users\Frost\Desktop\rshool\rsschool-cv\portfolio\assets" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/portfolio/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +79,10 @@
       <workItem from="1641398041660" duration="769000" />
       <workItem from="1641816950795" duration="12689000" />
       <workItem from="1641992235189" duration="31000" />
+      <workItem from="1642511164063" duration="31000" />
+      <workItem from="1642511211904" duration="857000" />
+      <workItem from="1642512796288" duration="20000" />
+      <workItem from="1643098804840" duration="39000" />
     </task>
     <servers />
   </component>
