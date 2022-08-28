@@ -1,7 +1,7 @@
 # styshchyk-JSFEPRESCHOOL
 Private repository for @styshchyk
  
-[CV][0]
+[CV][0]  
 [CV Markdown][1]
 [Portfolio Page][2]  
 [Audio player][3]  
