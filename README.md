@@ -6,7 +6,7 @@ Private repository for @styshchyk
 [Splash api][3]  
 [Snake][4]
 
-[1]: https://rolling-scopes-school.github.io/styshchyk-JSFEPRESCHOOL/portfolio/ "Portfolio link"
-[2]: https://rolling-scopes-school.github.io/styshchyk-JSFEPRESCHOOL/js30/ "Audio player"
-[3]: https://rolling-scopes-school.github.io/styshchyk-JSFEPRESCHOOL/js30-2/ "Search images" 
-[4]: https://rolling-scopes-school.github.io/styshchyk-JSFEPRESCHOOL/js30-3/ "Snake"
+[1]: https://rsschool-cv//portfolio/ "Portfolio link"
+[2]: https://rsschool-cv//js30/ "Audio player"
+[3]: https://rsschool-cv//js30-2/ "Search images" 
+[4]: https://rsschool-cv//js30-3/ "Snake"
