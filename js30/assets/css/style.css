@@ -1,0 +1,158 @@
+:root {
+    --bg-color: #ffffff;
+    --progress-color: red;
+    --control-color: #090b18;
+
+    --radius : 10px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: inherit;
+}
+
+.gb-img {
+    background: url("../imgs/FFDP.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Full height */
+    /* Center and scale the image nicely */
+
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /*transform: translate(-50%, -50%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.player {
+
+
+    width: 600px;
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-rows: 300px 6px auto;
+    justify-content: center;
+    position: absolute;
+
+
+
+    -webkit-box-shadow: 4px -2px 52px 46px rgba(0, 0, 0, 0.93);
+    -moz-box-shadow: 4px -2px 52px 46px rgba(0, 0, 0, 0.93);
+    box-shadow: 4px -2px 52px 46px rgba(0, 0, 0, 0.93);
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    align-items: center;
+    grid-gap: 0 30px;
+    background-color: var(--bg-color);
+    border-bottom-right-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+}
+.controls > *{
+    cursor: pointer;
+}
+/*Progress*/
+.timeline {
+    background: white;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.progressBar {
+    background: var(--progress-color);
+    width: 0;
+    height: 100%;
+    transition: 0.25s;
+
+}
+
+/*Track detail*/
+.track-details {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*Volume*/
+.volume-container {
+    position: relative;
+}
+
+.volume-slider {
+    display: none;
+    background: white;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    left: -95px;
+    top: 7px;
+    box-shadow: 0 0 20px #000a;
+}
+
+.volume-percentage {
+    background: var(--progress-color);
+    width: 0;
+    height: 100%;
+    transition: 0.25s;
+}
+
+/*Time*/
+
+
+.icon {
+    color: var(--control-color);
+}
+
+.img {
+    width: 600px;
+    background: transparent;
+    opacity: 0.7;
+   border-top-right-radius: var(--radius);
+   border-top-left-radius: var(--radius);
+}
+.time{
+    display: flex;
+
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.6);
+
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
