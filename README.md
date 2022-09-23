@@ -2,4 +2,4 @@
 
  
   https://styshchyk.github.io/rsschool-cv/  
-  https://styshchyk.github.io/rsschool-cv/cv.md  
+  https://styshchyk.github.io/rsschool-cv/cv
